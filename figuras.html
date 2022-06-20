@@ -5,9 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geometric Figures</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Geometric Figures</h1>
+    <header class="header">
+        <nav class="header__nav">
+          <a href=""><img src="./img/calc.svg" alt="math icon" class="header__img"></a></nav>
+          <h1 class="header__title">👋 Hi, I'm MathBot</h1>
+          <div class="header__text">
+            <p>and I'll help you with Math</p>
+            <img src="./img/robot.svg" alt="robot icon" class="header__text__img">
+          </div>
+          <div class="links">
+            <p>what are we going to calculate today?</p>
+            <div class="links__container">
+              <p class="links__box">Geometry</p>
+              <p class="links__box">Discounts</p> 
+              <p class="links__box">Statistics</p>
+              <p class="links__box">Analysis</p>
+            </div>
+          </div>
+    </header>
+    <main>
+      <div class="main">
+        
+        <form class="section">
+          <h2 class="section__title">Geometry</h2>
+          <div class="calc square">
+            <div class="calc__title">
+              <img src="./img/square.svg" alt="square icon" class="calc__img">
+              <p>Square</p>
+            </div>
+            <label for="squareValue" class="calc__label">
+              <p class="calc__text">how long is each side of your square?</p> 
+              <div class="calc__input">
+                <input type="number" id="squareValue" class="calc__input__item">
+                <p>cm</p>
+              </div>
+            </label>
+            <div class="calc__buttons">
+              <button class="calc__buttons__item" type="button" onclick="calcSquarePerimeter()">Get perimeter</button>
+              <button class="calc__buttons__item" type="button" onclick="calcSquareArea()">Get area</button>
+            </div>
+            <div class="calc__results" id="squareCalcResults">
+              <p>results</p>
+            </div>
+          </div>
+        </form>
+      
+        <form class="section">
+          <div class="calc calc--secondary">
+            <div class="calc__title">
+              <img src="./img/triangle.svg" alt="triangle icon" class="calc__img">
+              <p>Triangle</p>
+            </div>
+            <label class="calc__label">
+              <p class="calc__text">What are the messuresments of your triangle?</p>
+              <fieldset class="calc__input calc__input--field-set">
+                <legend>Side A</legend>
+                <input type="number" id="valueSideA" class="calc__input__item">
+                <p>cm</p>
+              </fieldset>
+              <fieldset class="calc__input calc__input--field-set">
+                <legend>Side B</legend>
+                <input type="number" id="valueSideB" class="calc__input__item">
+                <p>cm</p>
+              </fieldset>
+              <fieldset class="calc__input calc__input--field-set">
+                <legend>Base</legend>
+                <input type="number" id="valueBase" class="calc__input__item">
+                <p>cm</p>
+              </fieldset>
+              <fieldset class="calc__input calc__input--field-set">
+                <legend>Height</legend>
+                <input type="number" id="valueHeight" class="calc__input__item">
+                <p>cm</p>
+              </fieldset>
+            </label>
+            <div class="calc__buttons">
+              <button class="calc__buttons__item calc__buttons__item--secondary" type="button" onclick="calcTrianglePerimeter()">Get perimeter</button>
+              <button class="calc__buttons__item calc__buttons__item--secondary" type="button" onclick="calcTriangleArea()">Get area</button>
+            </div>
+            <div class="calc__results" id="squareCalcResults">
+              <p>results</p>
+            </div>
+          </div>
+        </form>
+          
+        <form class="section">
+          <div class="calc calc--third">
+            <div class="calc__title">
+              <img src="./img/circle.svg" alt="circle icon" class="calc__img">
+              <p>Circle</p>
+            </div>
+            <label for="circleValue" class="calc__label">
+              <p class="calc__text">What is the radius of your circle?</p>
+              <div class="calc__input">
+                <input type="number" id="circleValue" class="calc__input__item">
+                <p>cm</p>
+              </div>
+            </label>
+            <div class="calc__buttons">
+              <button class="calc__buttons__item calc__buttons__item--third" type="button" onclick="calcCirclePerimeter()">Get perimeter</button>
+              <button class="calc__buttons__item calc__buttons__item--third" type="button" onclick="calcCircleArea()">Get area</button>
+            </div>
+            <div class="calc__results" id="squareCalcResults">
+              <p>results</p>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </main>
   </body>
   <script src="./figuras.js"></script>
 </html>

@@ -68,7 +68,7 @@ function circleDiameter(circleRadius) {
 }
 
 // Circle perimeter function 
-function ciclePerimeter(circleRadiusLength) {
+function circlePerimeter(circleRadiusLength) {
     return circleDiameter(circleRadiusLength) * Math.PI;
 }
 
@@ -80,8 +80,49 @@ function circleArea(circleRadius) {
 console.groupEnd();
 
 
+// Circle HTML/JS integration
 
+function calcSquarePerimeter() {
+    const value = document.getElementById("squareValue").value;
+    const sqrPerimeter = squarePerimeter(value);
+    alert(`tu perimetro cuadrado es ${sqrPerimeter}`);
+}
 
+function calcSquareArea() {
+    const value = document.getElementById("squareValue").value;
+    const sqrArea = squareArea(value);
+    alert(`tu Area cuadrada es ${sqrArea}`);
+}
 
+// Triangle HTML/JS integration
+
+function calcTrianglePerimeter() {
+    const valueA = parseInt(document.getElementById("valueSideA").value); 
+    const valueB = parseInt(document.getElementById("valueSideB").value); 
+    const valueBase = parseInt(document.getElementById("valueBase").value); 
+    const triPerimeter = parseInt(trianglePerimeter(valueA, valueB, valueBase));
+    alert(`tu perimetro de triangulo es ${triPerimeter}`);
+}
+
+function calcTriangleArea() {
+    const valueBase = parseInt(document.getElementById("valueBase").value); 
+    const valueHeight = parseInt(document.getElementById("valueHeight").value); 
+    const triArea = triangleArea(valueBase, valueHeight);
+    alert(`tu area de triangulo es ${triArea}`);
+}
+
+// Circle HTML/JS integration 
+
+function calcCirclePerimeter() {
+    const value = document.getElementById("circleValue").value;
+    const circlePer = circlePerimeter(value);
+    alert(`tu perimetro del circulo es ${circlePer}`);
+}
+
+function calcCircleArea() {
+    const value = document.getElementById("circleValue").value;
+    const cirArea = circleArea(value);
+    alert(`tu area de circulo es ${cirArea}`);
+}
 
 
