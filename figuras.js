@@ -80,18 +80,18 @@ function circleArea(circleRadius) {
 console.groupEnd();
 
 
-// Circle HTML/JS integration
+// Square HTML/JS integration
 
 function calcSquarePerimeter() {
     const value = document.getElementById("squareValue").value;
     const sqrPerimeter = squarePerimeter(value);
-    alert(`tu perimetro cuadrado es ${sqrPerimeter}`);
+    document.getElementById("squareCalcResults").innerHTML = `<p>the square perimeter is ${sqrPerimeter} cm</p>`;
 }
 
 function calcSquareArea() {
     const value = document.getElementById("squareValue").value;
     const sqrArea = squareArea(value);
-    alert(`tu Area cuadrada es ${sqrArea}`);
+    document.getElementById("squareCalcResults").innerHTML = `<p>the square area is ${sqrArea} cm2</p>`;
 }
 
 // Triangle HTML/JS integration
@@ -101,14 +101,14 @@ function calcTrianglePerimeter() {
     const valueB = parseInt(document.getElementById("valueSideB").value); 
     const valueBase = parseInt(document.getElementById("valueBase").value); 
     const triPerimeter = parseInt(trianglePerimeter(valueA, valueB, valueBase));
-    alert(`tu perimetro de triangulo es ${triPerimeter}`);
+    document.getElementById("triangleCalcResults").innerHTML = `<p>the triangle perimeter is ${triPerimeter} cm</p>`;
 }
 
 function calcTriangleArea() {
     const valueBase = parseInt(document.getElementById("valueBase").value); 
     const valueHeight = parseInt(document.getElementById("valueHeight").value); 
     const triArea = triangleArea(valueBase, valueHeight);
-    alert(`tu area de triangulo es ${triArea}`);
+    document.getElementById("triangleCalcResults").innerHTML = `<p>the triangle area is ${triArea} cm2</p>`;
 }
 
 // Circle HTML/JS integration 
@@ -116,13 +116,11 @@ function calcTriangleArea() {
 function calcCirclePerimeter() {
     const value = document.getElementById("circleValue").value;
     const circlePer = circlePerimeter(value);
-    alert(`tu perimetro del circulo es ${circlePer}`);
+    document.getElementById("circleCalcResults").innerHTML = `<p>the circle perimeter is ${circlePer} cm</p>`;
 }
 
 function calcCircleArea() {
     const value = document.getElementById("circleValue").value;
     const cirArea = circleArea(value);
-    alert(`tu area de circulo es ${cirArea}`);
+    document.getElementById("circleCalcResults").innerHTML = `<p>the circle area is ${cirArea} cm2</p>`;
 }
-
-

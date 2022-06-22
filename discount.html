@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <nav class="header__nav">
+          <a href=""><img src="./img/calc.svg" alt="math icon" class="header__img"></a></nav>
+          <h1 class="header__title">👋 Hi, I'm MathBot</h1>
+          <div class="header__text">
+            <p>and I'll help you with Math</p>
+            <img src="./img/robot.svg" alt="robot icon" class="header__text__img">
+          </div>
+          <div class="links">
+            <p>what are we going to calculate today?</p>
+            <ul class="links__container">
+              <li class="links__box"><a href="./figuras.html">Geometry</a></li>
+              <li class="links__box"><a href="./discount.html">Discounts</a></li> 
+              <li class="links__box"><a href="#">Statistics</a></li>
+              <li class="links__box"><a href="#">Analysis</a></li>
+            </ul>
+          </div>
+    </header>
+    <main>
+      <div class="main">
+        
+        <form class="section">
+            <h2 class="section__title --secondary-color" >Discount</h2>
+            <div class="calc calc--discount-height calc--secondary">
+                <div class="calc__title">
+                    <img src="./img/sale.svg" alt="sale icon" class="calc__img">
+                    <p>Sale information</p>
+                </div>
+                <label for="itemPrice" class="calc__label">
+                    <p class="calc__text">What's the price of the product?</p> 
+                    <div class="calc__input">
+                        <input type="number" id="itemPrice" class="calc__input__item">
+                    </div>
+                </label>
+                <label for="discount" class="calc__label">
+                    <p class="calc__text">How much is the sale discount</p>
+                    <div class="calc__input">
+                        <input type="number" id="discount" class="calc__input__item">
+                    </div>
+                </label>
+                <div class="calc__buttons">
+                    <button class="calc__buttons__item --secondary-color" type="button" onclick="calcDiscount()">How much will i pay?</button>
+                </div>
+                <div class="calc__results" id="discountResults">
+                    
+                </div>
+            </div>
+        </form>
+
+      </div>
+    </main>
+  </body>
+  <script src="./discount.js"></script>
+</html>
