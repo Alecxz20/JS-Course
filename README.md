@@ -18,5 +18,5 @@
 
 ## Third workshop: Statistics
 
--First Step: functions created for mean, median and mode
--Second Step: to integrate JS and HTML
+- First Step: functions created for mean, median and mode
+- Second Step: to integrate JS and HTML

@@ -32,7 +32,7 @@ function sampleMedian (array) {
         document.getElementById("statisticResults").innerHTML = `<p>The median of this sample is ${result}</p>`
     } else { // if -> the array elements are odd
         const digit = Math.floor(array.length / 2);
-        const median = array[digit]
+        const median = array[digit];
         document.getElementById("statisticResults").innerHTML = `<p>The median of this sample is ${median}</p>`
     }
 }

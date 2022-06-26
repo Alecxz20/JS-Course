@@ -5,9 +5,8 @@
     --sm: 1.2rem;
     --first: #fefefe;
     --primary: #00F3B4;
-    --secondary: #BCAFDA;
+    --secondary: #c93c20;
     --third: #FFC771;
-    --main: #c93c20;
 }
 
 body {
@@ -140,19 +139,19 @@ main {
 }
 
 .calc--square-height {
-    height: 344.5px;
+    height: 400px;
 }
 
 .calc--triangle-height {
-    height: 685.375px;
+    height: 720px;
 }
 
 .calc--circle-height {
-    height: 344.5px;
+    height: 400px;
 }
 
 .calc--discount-height {
-    height: 530px;
+    height: 550px;
 }
 
 .calc__title {
