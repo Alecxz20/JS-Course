@@ -7,7 +7,7 @@
     --primary: #00F3B4;
     --secondary: #BCAFDA;
     --third: #FFC771;
-    --main: #353535;
+    --main: #c93c20;
 }
 
 body {
@@ -152,7 +152,7 @@ main {
 }
 
 .calc--discount-height {
-    height: 408.5px;
+    height: 530px;
 }
 
 .calc__title {
@@ -167,6 +167,10 @@ main {
 .calc__img {
     height: 30px;
     padding-right: 8px;
+}
+
+.calc__text {
+    text-align: center;
 }
 
 .calc__label {
@@ -190,12 +194,12 @@ main {
 
 .calc__input__item {
     height: 30px;
-    margin-right: 36px;
     border: hidden;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.2);
     outline: none;
     color: var(--first);
+    margin-right: 16px;
 }
 
 .calc__buttons {
@@ -239,4 +243,8 @@ main {
 
 .--secondary-color {
     color: var(--secondary);
+}
+
+.--third-color {
+    color: var(--third);
 }

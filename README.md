@@ -9,9 +9,14 @@
 - Third step: to create functions
 - Fouth step: to integrate JS and HTML
 
-## First workshop: Discounts
+## Second workshop: Discounts
 
-- First step: to define the forms
+- First step: to define the formula
 - Second step: to implement calculations
 - Third step: to create functions
 - Fouth step: to integrate JS and HTML
+
+## Third workshop: Statistics
+
+-First Step: functions created for mean, median and mode
+-Second Step: to integrate JS and HTML

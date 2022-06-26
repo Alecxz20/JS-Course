@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 6.3499999 6.35"
+   version="1.1"
+   id="svg12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false" />
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.01783827,0,0,-0.01783827,0.2507672,6.0776926)"
+       fill="#000000"
+       stroke="none"
+       id="g44"
+       style="fill:#ffffff">
+      <path
+         d="m 20,290 c 0,-16 -5,-30 -10,-30 -6,0 -5,-8 2,-19 9,-15 9,-23 -1,-35 -9,-11 -10,-16 -2,-16 15,0 14,-37 -1,-43 -10,-4 -9,-8 2,-16 12,-8 12,-14 4,-28 C 6,90 6,80 14,67 22,54 22,47 11,41 -1,33 0,29 15,13 28,0 35,-1 38,8 c 5,16 39,16 45,0 4,-10 6,-10 6,0 1,16 38,16 45,0 5,-11 7,-11 12,0 7,14 44,16 44,2 0,-6 8,-5 19,2 15,9 23,9 35,-1 11,-9 16,-10 16,-2 0,6 14,11 30,11 17,0 30,5 30,10 0,6 -53,10 -140,10 H 40 v 140 c 0,87 -4,140 -10,140 -5,0 -10,-13 -10,-30 z"
+         id="path34"
+         style="fill:#ffffff" />
+      <path
+         d="M 141,301 C 130,290 114,270 105,256 95,242 81,230 74,230 c -8,0 -14,-4 -14,-10 0,-23 31,-7 66,35 20,25 45,45 55,45 9,0 28,-15 40,-32 26,-39 48,-58 65,-58 7,0 -10,25 -39,55 -55,59 -76,66 -106,36 z"
+         id="path36"
+         style="fill:#ffffff" />
+      <path
+         d="M 150,150 V 60 h 30 30 v 90 90 h -30 -30 z"
+         id="path38"
+         style="fill:#ffffff" />
+      <path
+         d="m 80,125 c 0,-63 1,-65 25,-65 24,0 25,2 25,65 0,63 -1,65 -25,65 -24,0 -25,-2 -25,-65 z"
+         id="path40"
+         style="fill:#ffffff" />
+      <path
+         d="m 230,125 c 0,-63 1,-65 25,-65 24,0 25,2 25,65 0,63 -1,65 -25,65 -24,0 -25,-2 -25,-65 z"
+         id="path42"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>
